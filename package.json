@@ -8,7 +8,6 @@
     "build": "echo 'No build step required for static site'"
   },
   "devDependencies": {
-    "live-server": "^1.2.2",
-    "vite": "^5.0.0"
+    "live-server": "^1.2.2"
   }
 }

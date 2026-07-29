@@ -4,7 +4,8 @@
   "description": "Premium Marketing Agency Website",
   "main": "index.js",
   "scripts": {
-    "dev": "live-server"
+    "dev": "live-server",
+    "build": "echo 'No build step required for static site'"
   },
   "devDependencies": {
     "live-server": "^1.2.2",

@@ -1,0 +1,19 @@
+:root {
+    --dexze-font-two: "Kanit", sans-serif;
+    --dexze-base: #F9FF04;
+    --dexze-base-rgb: 249, 255, 4;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--dexze-white);
+}
+
+.home-body-color {
+    background-color: var(--dexze-black);
+}

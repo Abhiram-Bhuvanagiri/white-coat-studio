@@ -1,0 +1,66 @@
+/*==============================================
+ Error Page 
+===============================================*/
+.error-page {
+    position: relative;
+    display: block;
+    padding: 120px 0 120px;
+    z-index: 1;
+}
+
+.error-page__inner {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.error-page__img {
+    position: relative;
+    display: block;
+}
+
+.error-page__img img {
+    width: auto;
+}
+
+.error-page__content {
+    position: relative;
+    display: block;
+}
+
+.error-page__title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    color: var(--dexze-black);
+    text-transform: capitalize;
+    margin: 45px 0 22px;
+}
+
+.error-page__text {
+    font-weight: 300;
+    font-family: var(--dexze-font-two);
+}
+
+.error-page__btn-box {
+    position: relative;
+    display: block;
+    margin-top: 34px;
+}
+
+.error-page__btn-box .thm-btn {
+    color: var(--dexze-white);
+    background-color: var(--dexze-black);
+}
+
+.error-page__btn-box .thm-btn::before {
+    background-color: var(--dexze-base);
+}
+
+.error-page__btn-box .thm-btn::after {
+    background-color: rgba(var(--dexze-base-rgb), .30);
+}
+
+/*==============================================
+    End   
+===============================================*/

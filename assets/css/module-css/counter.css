@@ -1,0 +1,71 @@
+/*==============================================
+ Counter One 
+===============================================*/
+.counter-one {
+    position: relative;
+    display: block;
+    padding: 90px 0 90px;
+    z-index: 1;
+}
+
+.counter-one__single-list-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.counter-one__single-list {
+    position: relative;
+    display: block;
+    max-width: 370px;
+    width: 100%;
+}
+
+.counter-one__single-list+.counter-one__single-list {
+    margin-left: -65px;
+}
+
+.counter-one__single {
+    position: relative;
+    display: block;
+    border: 1px solid var(--dexze-bdr-color);
+    border-radius: 50%;
+    text-align: center;
+    padding: 111px 0 105.32px;
+    margin-bottom: 30px;
+}
+
+.counter-one__count {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-one__count h3 {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 64px !important;
+    font-family: var(--dexze-font) !important;
+}
+
+.counter-one__count span {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 64px !important;
+    font-family: var(--dexze-font) !important;
+    color: var(--dexze-black);
+}
+
+.counter-one__count-text {
+    font-size: 30px;
+    font-family: var(--dexze-font-two);
+    line-height: 40px;
+}
+
+
+
+
+/*==============================================
+    End   
+===============================================*/

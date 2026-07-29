@@ -1,0 +1,58 @@
+:root {
+    --dexze-font-two: "Unbounded", sans-serif;
+    --dexze-base: #4A24E8;
+    --dexze-base-rgb: 74, 36, 232;
+}
+
+.home-body-two .page-wrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.border-shape-1 {
+    position: absolute;
+    top: 0;
+    left: 99px;
+    bottom: 0;
+    width: 1px;
+    background-color: var(--dexze-bdr-color);
+}
+
+.border-shape-2 {
+    position: absolute;
+    top: 0;
+    right: 99px;
+    bottom: 0;
+    width: 1px;
+    background-color: var(--dexze-bdr-color);
+}
+
+
+
+
+
+
+
+@media (max-width: 1319px) {
+    .home-body-two .page-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .border-shape-1,
+    .border-shape-2 {
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+
+/*==============================================
+   
+===============================================*/

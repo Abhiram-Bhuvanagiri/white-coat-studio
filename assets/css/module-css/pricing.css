@@ -1,0 +1,403 @@
+/*--------------------------------------------------------------
+# Pricing One
+--------------------------------------------------------------*/
+.pricing-one {
+    position: relative;
+    display: block;
+    padding: 130px 0 90px;
+    z-index: 1;
+}
+
+.pricing-one__shape-1 {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    z-index: -1;
+}
+
+.pricing-table-wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.pricing-table {
+    margin-bottom: 0;
+}
+
+@media(max-width: 1319px) {
+    .pricing-table {
+        min-width: 1319px;
+    }
+}
+
+.table>thead {
+    vertical-align: middle;
+}
+
+.pricing-table th,
+.pricing-table td {
+    border: 1px solid #1f1f1f;
+    padding: 30px 20px 30px;
+}
+
+.pricing-table thead th {
+    background: #1a1a1a;
+}
+
+.pricing-table .price-title {
+    font-family: var(--dexze-font-two);
+    margin: 0 0 10px;
+    color: var(--dexze-white);
+    font-size: 24px;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+.pricing-table .price-box {
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    font-family: var(--dexze-font-two);
+    color: var(--dexze-white);
+    font-weight: 600;
+}
+
+.pricing-table .price-box span {
+    font-size: 14px;
+    color: var(--dexze-gray);
+}
+
+.pricing-table .pricing-table__btn {
+    background: transparent;
+    border: 1px solid #2A2A2A;
+    color: var(--dexze-white);
+    padding: 16px 35px 16px;
+    font-weight: 600;
+    font-family: var(--dexze-font-two);
+    line-height: 16px;
+    font-size: 16px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.pricing-table th.highlight {
+    background: #1e1e1e;
+}
+
+.pricing-table th.highlight .price-box {
+    color: var(--dexze-base);
+}
+
+.pricing-table .pricing-table__btn.highlight-btn {
+    background: var(--dexze-base);
+    color: var(--dexze-black);
+    font-weight: bold;
+    border: 1px solid var(--dexze-base);
+}
+
+.pricing-table .pricing-table__btn:hover {
+    background: var(--dexze-base);
+    color: var(--dexze-black);
+    font-weight: bold;
+    border: 1px solid var(--dexze-base);
+}
+
+.pricing-table td.highlight .pricing-one__icon span {
+    color: var(--dexze-base);
+    font-weight: bold;
+}
+
+.pricing-table td.dark-icon .pricing-one__icon span {
+    color: #2A2A2A;
+    font-weight: bold;
+}
+
+.book-call .call-box {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(var(--dexze-white-rgb), .05);
+    padding: 10px 15px 10px;
+}
+
+.book-call img {
+    width: 40px;
+}
+
+.book-call .call-number {
+    position: relative;
+    display: block;
+    text-align: left;
+    flex: 1;
+    top: 3px;
+}
+
+.book-call .call-number a {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    color: var(--dexze-base);
+    line-height: 15px;
+}
+
+.book-call .call-number a:hover {
+    color: var(--dexze-white);
+}
+
+.book-call .call-number span {
+    color: var(--dexze-white);
+    font-size: 15px;
+}
+
+.pricing-table tbody tr td .title-box {
+    position: relative;
+    display: block;
+}
+
+.pricing-table tbody tr td .title-box h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--dexze-white);
+}
+
+.pricing-table tbody tr td .pricing-one__icon {
+    position: relative;
+    display: block;
+}
+
+.pricing-table tbody tr td .pricing-one__icon span {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: var(--dexze-white);
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Pricing Two
+--------------------------------------------------------------*/
+.pricing-two {
+    position: relative;
+    display: block;
+    padding: 115px 0 120px;
+    z-index: 1;
+}
+
+.pricing-two .section-title {
+    margin-bottom: 28px;
+}
+
+.pricing-two .section-title__title {
+    font-weight: 600;
+}
+
+.pricing-two ul.switch-toggler-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.pricing-two ul.switch-toggler-list li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--dexze-black);
+    padding-left: 25px;
+    padding-right: 25px;
+    display: block;
+}
+
+.pricing-two .switch {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    border-radius: 30px;
+    width: 70px;
+    height: 36px;
+}
+
+.pricing-two .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+    background-color: var(--dexze-black);
+}
+
+.pricing-two .slider:before {
+    position: absolute;
+    content: "";
+    height: 28px;
+    width: 28px;
+    left: 4px;
+    right: 4px;
+    top: 50%;
+    -webkit-transform: translateX(0px) translateY(-50%);
+    transform: translateX(0px) translateY(-50%);
+    background-color: var(--dexze-white);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.pricing-two .switch.off .slider:before {
+    -webkit-transform: translateX(30px) translateY(-50%);
+    transform: translateX(30px) translateY(-50%);
+}
+
+.pricing-two .slider.round {
+    border-radius: 25px;
+}
+
+.pricing-two .slider.round:before {
+    border-radius: 25px;
+}
+
+.pricing-two__single {
+    position: relative;
+    display: block;
+    border: 1px solid var(--dexze-bdr-color);
+    border-radius: 4px;
+    padding: 40px 29px 40px;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+.pricing-two__sub-title {
+    font-size: 18px;
+    font-family: var(--dexze-font-two);
+}
+
+.pricing-two__price {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    color: var(--dexze-black);
+    margin: 37px 0 25px;
+}
+
+.pricing-two__price>span {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--dexze-gray);
+    margin-left: 15px;
+    top: -1px;
+    position: relative;
+}
+
+.pricing-two__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    font-family: var(--dexze-font-two);
+}
+
+.pricing-two__points-box {
+    position: relative;
+    display: block;
+    border-top: 1px solid var(--dexze-bdr-color);
+    margin: 31px 0 40px;
+    padding-top: 33px;
+}
+
+.pricing-two__points-box li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pricing-two__points-box li+li {
+    margin-top: 17px;
+}
+
+.pricing-two__points-shape {
+    position: relative;
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: var(--dexze-black);
+    border-radius: 50%;
+}
+
+.pricing-two__points-box li:nth-child(4) .pricing-two__points-shape {
+    background-color: var(--dexze-gray);
+}
+
+.pricing-two__points-box li:nth-child(5) .pricing-two__points-shape {
+    background-color: var(--dexze-gray);
+}
+
+.pricing-two__points-box li p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    font-family: var(--dexze-font-two);
+    color: var(--dexze-black);
+}
+
+.pricing-two__points-box li:nth-child(4) p {
+    color: var(--dexze-gray);
+}
+
+.pricing-two__points-box li:nth-child(5) p {
+    color: var(--dexze-gray);
+}
+
+.pricing-two__btn-box {
+    position: relative;
+    display: block;
+}
+
+.pricing-two__btn-box .thm-btn {
+    background-color: transparent;
+    border: 1px solid var(--dexze-bdr-color);
+    width: 100%;
+    border-radius: 4px;
+    padding: 12px 40px 10px;
+}
+
+.pricing-two__btn-box .thm-btn:hover {
+    border: 1px solid var(--dexze-base);
+}
+
+.pricing-two__btn-box .thm-btn::before {
+    background-color: var(--dexze-base);
+}
+
+.pricing-two__btn-box .thm-btn::after {
+    background-color: rgba(var(--dexze-base-rgb), .30);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

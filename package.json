@@ -1,0 +1,13 @@
+{
+  "name": "whitecode-solutions",
+  "version": "1.0.0",
+  "description": "Premium Marketing Agency Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "vite": "^5.0.0"
+  }
+}

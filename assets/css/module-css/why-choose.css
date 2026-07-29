@@ -1,0 +1,459 @@
+/*==============================================
+  Why Choose One  
+===============================================*/
+.why-choose-one {
+    position: relative;
+    display: block;
+    background-color: var(--dexze-primary);
+    padding: 120px 0 120px;
+    z-index: 1;
+}
+
+.why-choose-one__left {
+    position: relative;
+    display: block;
+    margin-right: 70px;
+}
+
+.why-choose-one__left .section-title {
+    margin-bottom: 20px;
+}
+
+.why-choose-one__left .section-title__title {
+    margin-right: -100px;
+}
+
+.why-choose-one__text-1 {
+    text-transform: capitalize;
+}
+
+.why-choose-one__img-1 {
+    position: relative;
+    display: block;
+    margin-left: -60px;
+    margin-top: 52px;
+}
+
+.why-choose-one__img-1 img {
+    width: 100%;
+}
+
+.why-choose-one__img-shape-1 {
+    position: absolute;
+    bottom: 60px;
+    left: -60px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--dexze-black);
+}
+
+.why-choose-one__img-shape-2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--dexze-base);
+}
+
+.why-choose-one__middle {
+    position: relative;
+    display: block;
+    margin-left: -40px;
+    margin-right: 57px;
+}
+
+.why-choose-one__img-2 {
+    position: relative;
+    display: block;
+}
+
+.why-choose-one__img-2 img {
+    width: 100%;
+}
+
+.why-choose-one__text-2 {
+    margin: 23px 0 32px;
+}
+
+.why-choose-one__contact-us {
+    position: relative;
+    display: inline-block;
+}
+
+.why-choose-one__contact-us a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid var(--dexze-black);
+    border-radius: 50%;
+    gap: 5px;
+    font-weight: 700;
+    color: var(--dexze-black);
+}
+
+.why-choose-one__contact-us a:hover {
+    border: 1px solid var(--dexze-base);
+    color: var(--dexze-base);
+}
+
+.why-choose-one__contact-us a span {
+    font-weight: 700;
+}
+
+.why-choose-one__right {
+    position: relative;
+    display: block;
+    margin-left: -57px;
+    margin-top: 50px;
+}
+
+.why-choose-one__text-3 {
+    text-transform: capitalize;
+}
+
+.why-choose-one__text-4 {
+    text-transform: capitalize;
+    margin-top: 14px;
+    margin-bottom: 71px;
+}
+
+.why-choose-one__right-title-1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.why-choose-one__right-bottom {
+    position: relative;
+    display: block;
+    margin-top: 33px;
+}
+
+.why-choose-one__mission-single {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.why-choose-one__mission-img {
+    position: relative;
+    display: block;
+    max-width: 142px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.why-choose-one__mission-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.why-choose-one__mission-content {
+    position: relative;
+    display: block;
+    background-color: var(--dexze-base);
+    border-radius: 50px;
+    padding: 104px 30px 32px;
+    margin-top: -81px;
+}
+
+.why-choose-one__mission-content h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    font-family: var(--dexze-font);
+}
+
+/*==============================================
+    Why Choose Two 
+===============================================*/
+.why-choose-two {
+    position: relative;
+    display: block;
+    background-color: var(--dexze-black);
+    overflow: hidden;
+    padding: 120px 0 91px;
+    z-index: 1;
+}
+
+.why-choose-two__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: calc((100% - -133px) / 3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    z-index: -1;
+}
+
+.why-choose-two__inner {
+    position: relative;
+    display: block;
+    max-width: 760px;
+    width: 100%;
+}
+
+.why-choose-two__inner .section-title-two {
+    margin-bottom: 24px;
+}
+
+.why-choose-two__inner .section-title-two__tagline {
+    color: var(--dexze-white);
+}
+
+.why-choose-two__inner .section-title-two__tagline-shape {
+    background-color: var(--dexze-white);
+}
+
+.why-choose-two__inner .section-title-two__title {
+    color: var(--dexze-white);
+}
+
+.why-choose-two__points-box {
+    position: relative;
+    display: block;
+}
+
+.why-choose-two__points-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.why-choose-two__points-list-1 {
+    border-bottom: 1px solid #2A2A2A;
+    margin-bottom: 25px;
+}
+
+.why-choose-two__points-list li {
+    position: relative;
+    display: block;
+    margin-bottom: 21px;
+}
+
+.why-choose-two__points-list li .icon {
+    position: relative;
+    display: inline-block;
+}
+
+.why-choose-two__points-list li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: var(--dexze-white);
+}
+
+.why-choose-two__title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--dexze-white);
+    margin: 18px 0 18px;
+}
+
+/*==============================================
+    Why Choose Three
+===============================================*/
+.why-choose-three {
+    position: relative;
+    display: block;
+    padding: 120px 0 120px;
+    z-index: 1;
+}
+
+.why-choose-three__bg-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.why-choose-three__bg-shape::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(24, 25, 27, .94);
+    z-index: -1;
+}
+
+.why-choose-three__shape-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.03;
+    z-index: -1;
+}
+
+.why-choose-three__shape-1 img {
+    width: auto;
+}
+
+.why-choose-three__top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 67px;
+}
+
+.why-choose-three__top .section-title-three {
+    margin-bottom: 0px;
+}
+
+.why-choose-three__text {
+    color: var(--dexze-white);
+}
+
+.why-choose-three__bottom {
+    position: relative;
+    display: block;
+}
+
+.why-choose-three__left {
+    position: relative;
+    display: block;
+    margin-top: 53px;
+}
+
+.why-choose-three__title-1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.why-choose-three__text-1 {
+    color: var(--dexze-white);
+    margin: 14px 0 22px;
+}
+
+.why-choose-three__title-2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.why-choose-three__text-2 {
+    color: var(--dexze-white);
+    margin: 14px 0 32px;
+}
+
+.why-choose-three__btn-box {
+    position: relative;
+    display: block;
+}
+
+.why-choose-three__middle {
+    position: relative;
+    display: block;
+    margin-left: 27px;
+    margin-right: 10px;
+}
+
+.why-choose-three__img {
+    position: relative;
+    display: block;
+}
+
+.why-choose-three__img img {
+    width: 100%;
+}
+
+.why-choose-three__right {
+    position: relative;
+    display: block;
+    margin-left: -10px;
+}
+
+.why-choose-three__img-2 {
+    position: relative;
+    display: block;
+}
+
+.why-choose-three__img-2 img {
+    width: 100%;
+}
+
+.why-choose-three__progress-box-outer {
+    position: relative;
+    display: block;
+    margin-top: 30px;
+}
+
+.why-choose-three__progress-single {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.why-choose-three__progress-box {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+}
+
+.why-choose-three__progress-box canvas {
+    transform: rotate(72deg);
+}
+
+.why-choose-three__progress-box .why-choose-three__pack {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.why-choose-three__progress-box .why-choose-three__pack p {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dexze-white);
+    line-height: 18px;
+}
+
+.why-choose-three__progress-box .why-choose-three__pack span {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dexze-white);
+    line-height: 18px;
+}
+
+.why-choose-three__progress-content {
+    margin-left: 20px;
+}
+
+.why-choose-three__progress-content p {
+    font-size: 18px;
+    color: var(--dexze-white);
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+/*==============================================
+    End   
+===============================================*/

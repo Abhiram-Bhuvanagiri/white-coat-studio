@@ -1,0 +1,151 @@
+/*==============================================
+  Awards One 
+===============================================*/
+.awards-one {
+    position: relative;
+    display: block;
+    background-color: var(--dexze-primary);
+    padding: 120px 0 120px;
+    z-index: 1;
+}
+
+.awards-one__left {
+    position: relative;
+    display: block;
+}
+
+.awards-one__right {
+    position: relative;
+    display: block;
+    margin-left: 60px;
+}
+
+.awards-one__list {
+    position: static;
+    display: block;
+}
+
+.awards-one__list li {
+    position: static;
+    display: block;
+}
+
+.awards-one__single {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 2px solid var(--dexze-bdr-color);
+    padding: 22px 0 20px;
+    gap: 175px;
+}
+
+.awards-one__list li:first-child .awards-one__single {
+    border-top: 2px solid var(--dexze-bdr-color);
+}
+
+.awards-one__year {
+    position: relative;
+    display: block;
+}
+
+.awards-one__year span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--dexze-black);
+    font-family: var(--dexze-font-two);
+}
+
+.awards-one__content {
+    position: relative;
+    display: block;
+}
+
+.awards-one__content-inner {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.awards-one__title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    margin-bottom: 9px;
+}
+
+.awards-one__title a {
+    color: var(--dexze-black);
+}
+
+.awards-one__meta {
+    position: relative;
+    display: block;
+}
+
+.awards-one__name {
+    position: relative;
+    display: block;
+}
+
+.awards-one__name h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.awards-one__inner {
+    position: relative;
+    display: block;
+}
+
+.awards-one__img-box {
+    position: absolute;
+    left: -441px;
+    bottom: 24px;
+    width: 230px;
+    height: 321px;
+    transform: rotate(15deg);
+    -webkit-clip-path: inset(0 100% 0 0);
+    clip-path: inset(0 100% 0 0);
+    pointer-events: none;
+    -webkit-animation: inactiveImageAnimation2 1s forwards ease;
+    animation: inactiveImageAnimation2 1s forwards ease;
+    z-index: 9999;
+}
+
+.cs-hover_tab-2.active .awards-one__img-box {
+    -webkit-animation: activeImageAnimation2 1s forwards ease;
+    animation: activeImageAnimation2 1s forwards ease;
+}
+
+
+
+
+
+@keyframes inactiveImageAnimation2 {
+    0% {
+        clip-path: inset(0 0 0 0);
+    }
+
+    100% {
+        clip-path: inset(0 0 0 100%);
+    }
+}
+
+@keyframes activeImageAnimation2 {
+    0% {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+/*==============================================
+    End   
+===============================================*/

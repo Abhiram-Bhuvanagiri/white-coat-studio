@@ -1,4 +1,4 @@
-/*==============================================
+﻿/*==============================================
    Contact One 
 ===============================================*/
 .contact-one {
@@ -13,7 +13,7 @@
     top: 0;
     left: 0;
     bottom: 0;
-    width: calc((100% - -30px) / 2);
+    width: calc(47% - 30px); border-radius: 0 12px 12px 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left center;
@@ -23,7 +23,7 @@
 .contact-one__right {
     position: relative;
     display: block;
-    margin-left: 14px;
+    margin-left: 50px; border-radius: 12px 0 0 12px;
     background-color: var(--dexze-black);
     padding: 120px 120px 112px;
     padding-right: 0;

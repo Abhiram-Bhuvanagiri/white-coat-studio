@@ -25,7 +25,7 @@
     display: block;
     margin-left: 50px; border-radius: 12px 0 0 12px;
     background-color: var(--dexze-black);
-    padding: 120px 120px 112px;
+    padding: 80px 100px 70px;
     padding-right: 0;
     z-index: 1;
 }
@@ -42,7 +42,12 @@
 }
 
 .contact-one__right .section-title {
-    margin-bottom: 41px;
+    margin-bottom: 30px;
+}
+
+.contact-one__right .section-title__title {
+    font-size: 40px !important;
+    line-height: 48px !important;
 }
 
 .contact-one__right .section-title__tagline-shape {
@@ -80,7 +85,7 @@
 }
 
 .contact-one__input-title span {
-    color: var(--dexze-base);
+    color: var(--dexze-always-green);
 }
 
 .contact-one__input-box input[type="text"],
@@ -130,6 +135,7 @@
 
 .contact-one__btn-box .thm-btn {
     border: none;
+    background-color: var(--dexze-always-green);
 }
 
 .contact-one__text {

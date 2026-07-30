@@ -2766,3 +2766,101 @@ xs sidebar
 --------------------------------------------------------------*/
 .brand-one__single-inner img { width: 218px; height: 60px; object-fit: contain; }
 
+/* --- ALWAYS GREEN OVERRIDES --- */
+:root {
+    --dexze-always-green: #BFF747;
+    --dexze-always-green-rgb: 191, 247, 71;
+}
+
+/* Preloader */
+.loader div:nth-child(1) {
+    background-color: rgba(var(--dexze-always-green-rgb), 1.0) !important;
+}
+.loader div:nth-child(2) {
+    background-color: rgba(var(--dexze-always-green-rgb), 0.70) !important;
+}
+.loader div:nth-child(3) {
+    background-color: rgba(var(--dexze-always-green-rgb), 0.40) !important;
+}
+
+/* Custom Cursor */
+.custom-cursor__cursor {
+    border-color: var(--dexze-always-green) !important;
+}
+.custom-cursor__cursor-two {
+    background-color: var(--dexze-always-green) !important;
+}
+.custom-cursor__hover {
+    background-color: var(--dexze-always-green) !important;
+}
+
+/* Chatbox */
+.chat-icon button {
+    background-color: var(--dexze-always-green) !important;
+}
+.chat-icon button:before {
+    background-color: rgba(var(--dexze-always-green-rgb), .20) !important;
+}
+
+/* Go back to top */
+.scroll-to-top, .scroll-to-top:hover, .scroll-to-top__text {
+    color: var(--dexze-always-green) !important;
+}
+.scroll-to-top__wrapper {
+    background-color: var(--dexze-always-green) !important;
+}
+
+/* Get A Quote button */
+.main-menu__btn-box .thm-btn,
+.main-menu-two__btn-box .thm-btn,
+.main-menu-three__btn-box .thm-btn,
+.main-menu-four__btn-box .thm-btn {
+    background-color: var(--dexze-always-green) !important;
+    color: #121212 !important;
+}
+.main-menu__btn-box .thm-btn::before,
+.main-menu-two__btn-box .thm-btn::before,
+.main-menu-three__btn-box .thm-btn::before,
+.main-menu-four__btn-box .thm-btn::before {
+    background-color: var(--dexze-always-green) !important;
+}
+
+/* --- UNIVERSAL TYPOGRAPHY OVERRIDES (Match Homepage) --- */
+:root {
+    /* Force all pages to use Marcellus for headings, just like index.html */
+    --dexze-font-two: "Marcellus", serif !important;
+}
+
+/* Ensure all headings use the correct weight for Marcellus */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--dexze-font-two) !important;
+    font-weight: 400 !important;
+}
+
+/* Force Section Titles to match homepage (.section-title__title) */
+.section-title-two__title,
+.section-title-three__title,
+.section-title-four__title {
+    font-size: 54px !important;
+    line-height: 64px !important;
+    font-weight: 400 !important;
+    letter-spacing: normal !important;
+    word-spacing: normal !important;
+}
+
+/* Force Taglines to match homepage (.section-title__tagline) */
+.section-title-two__tagline,
+.section-title-three__tagline,
+.section-title-four__tagline {
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.1em !important;
+}
+
+
+/* Fix Odometer number clipping */
+.odometer .odometer-digit {
+    font-family: var(--dexze-font) !important;
+    padding-right: 2px !important;
+}

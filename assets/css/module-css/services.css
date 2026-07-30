@@ -536,7 +536,7 @@
 }
 
 .services-three__single:hover .services-three__count::before {
-    color: var(--dexze-base);
+    color: var(--dexze-always-green);
 }
 
 .services-three__icon {
@@ -563,7 +563,7 @@
     animation-timing-function: ease-in-out;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-    color: var(--dexze-base);
+    color: var(--dexze-always-green);
 }
 
 .services-three__title {
@@ -577,7 +577,7 @@
 }
 
 .services-three__title a:hover {
-    color: var(--dexze-base);
+    color: var(--dexze-always-green);
 }
 
 .services-three__text {
@@ -601,7 +601,7 @@
 }
 
 .services-three__single:hover .services-three__read-more a {
-    color: var(--dexze-base);
+    color: var(--dexze-always-green);
 }
 
 .services-three__read-more a span {
@@ -705,9 +705,9 @@
 }
 
 .services-details__top-title {
-    font-size: 36px;
+    font-size: 46px;
     font-weight: 500;
-    line-height: 46px;
+    line-height: 56px;
     color: var(--dexze-black);
     text-transform: capitalize;
 }
@@ -795,9 +795,10 @@
 
 .services-details__points-list li p {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 28px;
-    font-family: var(--dexze-font-two);
+    font-family: var(--dexze-font);
+    color: var(--dexze-gray);
     text-transform: capitalize;
 }
 

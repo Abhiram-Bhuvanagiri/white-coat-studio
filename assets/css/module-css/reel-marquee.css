@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+.reel-marquee-section .section-title__tagline-shape {
+    background-color: var(--dexze-white, #ffffff);
+}
+
 .reel-marquee-header {
     display: flex;
     justify-content: space-between;

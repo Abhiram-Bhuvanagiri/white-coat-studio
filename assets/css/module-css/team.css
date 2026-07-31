@@ -357,7 +357,7 @@
 
 .team-details__social a:hover {
     background-color: var(--dexze-black);
-    color: #BFF747;
+    color: #4381e6;
 }
 
 .team-details__text {
@@ -423,14 +423,14 @@
 }
 
 .team-details__contact-list li:hover .icon {
-    background-color: #BFF747;
+    background-color: #4381e6;
 }
 
 .team-details__contact-list li .icon span {
     position: relative;
     display: inline-block;
     font-size: 16px;
-    color: #BFF747;
+    color: #4381e6;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -463,7 +463,7 @@
 }
 
 .team-details__contact-list li .content p a:hover {
-    color: #BFF747;
+    color: #4381e6;
 }
 
 .team-details__contact-list li+li {
@@ -484,7 +484,7 @@
 
 .team-details__btn-box .thm-btn::before,
 .team-details__btn-box .thm-btn::after {
-    background-color: #BFF747;
+    background-color: #4381e6;
 }
 
 .team-details__bottom {

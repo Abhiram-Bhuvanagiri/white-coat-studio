@@ -59,8 +59,8 @@
   --dexze-font-two: "Marcellus", serif;
   --dexze-gray: #797E88;
   --dexze-gray-rgb: 121, 126, 136;
-  --dexze-base: #BFF747;
-  --dexze-base-rgb: 191, 247, 71;
+  --dexze-base: #4381e6;
+  --dexze-base-rgb: 67, 129, 230;
   --dexze-black: #121212;
   --dexze-black-rgb: 18, 18, 18;
   --dexze-primary: #F8F8F8;
@@ -2768,8 +2768,8 @@ xs sidebar
 
 /* --- ALWAYS GREEN OVERRIDES --- */
 :root {
-    --dexze-always-green: #BFF747;
-    --dexze-always-green-rgb: 191, 247, 71;
+    --dexze-always-green: #4381e6;
+    --dexze-always-green-rgb: 67, 129, 230;
 }
 
 /* Preloader */
@@ -2884,4 +2884,42 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 24px !important;
     font-size: 14px !important;
     border-radius: 30px !important;
+}
+
+
+/* Hide chat widget entirely */
+.chat-icon, .chat-popup {
+    display: none !important;
+}
+
+/* Custom override to fit Marketing text next to the Practice Growth emoji */
+.banner-one__content-two {
+    display: flex !important;
+    align-items: center !important;
+    gap: 20px !important;
+}
+.banner-one__big-title-two {
+    font-size: 135px !important;
+    line-height: 1 !important;
+    margin-top: 0 !important;
+}
+@media (max-width: 991px) {
+    .banner-one__content-two {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+    .banner-one__big-title-two {
+        font-size: 60px !important;
+        margin-top: 20px !important;
+    }
+}
+
+/* Custom override to slightly decrease Medical text size */
+.banner-one__big-title-one {
+    font-size: 170px !important;
+}
+@media (max-width: 991px) {
+    .banner-one__big-title-one {
+        font-size: 80px !important;
+    }
 }

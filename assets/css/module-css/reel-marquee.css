@@ -40,6 +40,8 @@
     white-space: nowrap;
     position: relative;
     padding-bottom: 20px;
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
 .reel-marquee-track {

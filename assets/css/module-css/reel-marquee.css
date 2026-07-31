@@ -1,0 +1,99 @@
+.reel-marquee-section {
+    background-color: var(--dexze-black, #1a1a1a);
+    padding: 100px 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.reel-marquee-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.reel-marquee-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--dexze-white, #ffffff);
+    margin: 0;
+    font-family: var(--dexze-font, 'Unbounded', sans-serif);
+}
+
+.reel-marquee-text {
+    font-size: 16px;
+    color: #999999;
+    margin: 0;
+    text-align: left;
+    max-width: 350px;
+    line-height: 1.6;
+}
+
+.reel-marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.reel-marquee-track {
+    display: inline-flex;
+    gap: 20px;
+    animation: marquee-scroll 30s linear infinite;
+    padding-left: 20px; /* spacing start */
+}
+
+.reel-card {
+    flex-shrink: 0;
+    width: 250px;
+    height: 444px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    background: #000;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.reel-card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.reel-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none; /* Prevents user pausing it by clicking */
+}
+
+@keyframes marquee-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        /* Translate left by 50% of the total width since we duplicated the content */
+        transform: translateX(calc(-50% - 10px)); 
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .reel-marquee-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    
+    .reel-marquee-title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 575px) {
+    .reel-card {
+        width: 200px;
+        height: 355px;
+    }
+}

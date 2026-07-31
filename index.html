@@ -45,6 +45,7 @@
 <link href="assets/css/module-css/faq.css" rel="stylesheet"/>
 <link href="assets/css/module-css/contact.css" rel="stylesheet"/>
 <link href="assets/css/module-css/blog.css" rel="stylesheet"/>
+<link href="assets/css/module-css/reel-marquee.css" rel="stylesheet"/>
 <!-- template styles -->
 <link href="assets/css/style.css" rel="stylesheet"/>
 <link href="assets/css/responsive.css" rel="stylesheet"/>
@@ -148,7 +149,7 @@
 </li>
 <li>
 <div class="banner-one__content-two-single-two">
-<img alt="" src="assets/images/icon/banner-one-icon-man.png"/>
+<img alt="" src="assets/logo/white-coat.png" style="width: 65%; height: auto; object-fit: contain;"/>
 </div>
 </li>
 </ul>
@@ -465,23 +466,36 @@
 </div>
 </section>
 <!--Counter One End -->
-<!--Video One Start -->
-<section class="video-one">
-<video class="video-one__bg" id="home-video" onended="this.style.zIndex='-1'; document.getElementById('play-video-btn').style.visibility='visible'; document.getElementById('play-video-btn').style.opacity='1';" playsinline="" src="assets/videos/home-video.mp4" style="width: 100%; height: 100%; object-fit: cover;"></video>
-<div class="container" id="video-btn-container">
-<div class="video-one__inner">
-<div class="video-one__video-link" id="play-video-btn">
-<a href="javascript:void(0);" onclick="document.getElementById('home-video').play(); document.getElementById('home-video').style.zIndex = '10'; document.getElementById('play-video-btn').style.visibility='hidden'; document.getElementById('play-video-btn').style.opacity='0';">
-<div class="video-one__video-text">
-<span>Play video</span>
-<i class="ripple"></i>
-</div>
-</a>
-</div>
-</div>
-</div>
+<!-- Reel Marquee Start -->
+<section class="reel-marquee-section">
+    <div class="container">
+        <div class="reel-marquee-header">
+            <h2 class="reel-marquee-title">Motion That Captivates.</h2>
+            <p class="reel-marquee-text">Experience the raw quality and creative<br>direction we bring to our production<br>pipeline.</p>
+        </div>
+    </div>
+    <div class="reel-marquee-container">
+        <div class="reel-marquee-track">
+            <!-- Group 1 -->
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+            <!-- Group 2 (Duplicate for seamless scrolling) -->
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+            <div class="reel-card"><video src="assets/videos/home-video.mp4" autoplay loop muted playsinline class="reel-video"></video></div>
+        </div>
+    </div>
 </section>
-<!--Video One End -->
+<!-- Reel Marquee End -->
 <!--Portfolio One Start -->
 <section class="portfolio-one">
 <div class="container">
